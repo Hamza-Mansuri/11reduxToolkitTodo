@@ -1,0 +1,51 @@
+1- sabse pehla kaam hum store banage.
+
+-> import krna he configureStore, aur uska variable object lega.
+
+2- create slice
+-> nAnoid ek id create krta he.
+
+3- fir ek initial state method banayi, uske andr saare todoS hoge
+
+4- fir ek todoSlice banayi, jisme Properties important hoti he.
+
+name, initialstate, reducers
+
+-> reducers me bht saari methods ho sakti he
+
+5- fir usko import kiya store me.(store :- single source of truth)
+
+6- addTodo banaya usme Dispatch banaya jisme humne reducer ke through store me value change kari.
+
+7- ab saare todos ko list krna he. useSelector se.
+
+8-App se yaa to Main se dono tarike se return kr sakte he, isme main se return kiya he.
+
+9- context me hum saare components ko wrap krte the, Provider se.
+
+-> isme bhi karege lekin alag tarike se.
+-> aur Store ko bhi import krna padega.
+
+redux aur react-redux ek alag chiz he.
+
+redux ek core libarary he, aur react-redux ek wiring he usko implement krne ke liye.
+
+File Flow:-
+
+1- created store, to create reducer
+
+2- created todoSlice
+
+-> initial state create krni he.
+-> createSlice krna he.
+
+-> State me humko Updated Value in the Store milti he.
+-> Export all the reducers.
+
+3. Addtodo 
+
+-> Value bhejni he, mtlb Dispatch krni he.
+
+4.todos
+
+bcz ab values leni he, useSelector se.
